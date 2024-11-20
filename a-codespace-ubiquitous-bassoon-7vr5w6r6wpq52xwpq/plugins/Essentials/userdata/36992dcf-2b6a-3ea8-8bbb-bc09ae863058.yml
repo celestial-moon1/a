@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.41.177.32
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1731821069688
+  login: 1731820583934
+money: '0'
+last-account-name: VanillaEnni
+logoutlocation:
+  world: 6ebb08e1-bc55-4fbd-854d-d973555c3b3b
+  world-name: world
+  x: -188.6403532687588
+  y: 63.0
+  z: 308.9888245096292
+  yaw: 179.0997772216797
+  pitch: -23.399988174438477

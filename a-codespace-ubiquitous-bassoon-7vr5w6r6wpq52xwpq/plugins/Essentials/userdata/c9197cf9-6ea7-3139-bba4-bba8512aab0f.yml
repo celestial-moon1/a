@@ -1,0 +1,46 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.64.31.248
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1731916857275
+  login: 1731916187083
+money: '0'
+last-account-name: norinori0_
+logoutlocation:
+  world: 6ebb08e1-bc55-4fbd-854d-d973555c3b3b
+  world-name: world
+  x: -231.08964768028474
+  y: 78.59960779908874
+  z: 361.76242567276074
+  yaw: 40.05316162109375
+  pitch: 21.599960327148438
+lastlocation:
+  world: 6ebb08e1-bc55-4fbd-854d-d973555c3b3b
+  world-name: world
+  x: -277.5
+  y: 71.0
+  z: 292.5
+  yaw: 0.0
+  pitch: 0.0
+mail:
+- legacy: false
+  read: true
+  message: skibidi
+  sender-name: norinori0_
+  sender-uuid: c9197cf9-6ea7-3139-bba4-bba8512aab0f
+  timestamp: 1731916354373
+  expire: 0

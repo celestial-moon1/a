@@ -1,0 +1,308 @@
+[09:40:57] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[09:40:57] [ServerMain/WARN]: Missing metadata in pack file/sanatoriumdpgeneral (1).zip
+[09:40:59] [ServerMain/INFO]: Loaded 1175 recipes
+[09:40:59] [ServerMain/ERROR]: Failed to load function watching:check
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
+	at net.minecraft.commands.functions.CommandFunction.fromLines(CommandFunction.java:86) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.ServerFunctionLibrary.lambda$reload$2(ServerFunctionLibrary.java:91) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 3 more
+[09:40:59] [ServerMain/INFO]: Loaded 1374 advancements
+[09:41:00] [Server thread/INFO]: Starting minecraft server version 1.20.6
+[09:41:00] [Server thread/INFO]: Loading properties
+[09:41:00] [Server thread/INFO]: This server is running Paper version 1.20.6-151-ver/1.20.6@a4f0f5c (2024-10-30T19:13:22Z) (Implementing API version 1.20.6-R0.1-SNAPSHOT)
+[09:41:00] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[09:41:00] [Server thread/INFO]: Using 4 threads for Netty based IO
+[09:41:01] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[09:41:01] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[09:41:01] [Server thread/INFO]: Default game type: SURVIVAL
+[09:41:01] [Server thread/INFO]: Generating keypair
+[09:41:01] [Server thread/INFO]: Starting Minecraft server on *:25565
+[09:41:01] [Server thread/INFO]: Using epoll channel type
+[09:41:01] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[09:41:01] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[09:41:03] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.146
+[09:41:03] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.13
+[09:41:03] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.3.0
+[09:41:03] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
+[09:41:03] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+129-2ac37d8
+[09:41:03] [Server thread/INFO]: [RealisticSeasons] Loading server plugin RealisticSeasons v11.4.1
+[09:41:03] [Server thread/INFO]: [EconomyShopGUI] Loading server plugin EconomyShopGUI v6.9.0
+[09:41:03] [Server thread/INFO]: [EssentialsDiscord] Loading server plugin EssentialsDiscord v2.21.0-dev+129-2ac37d8
+[09:41:03] [Server thread/INFO]: [Infiniteannouncements] Loading server plugin Infiniteannouncements v2.5.0
+[09:41:03] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.0.1
+[09:41:03] [Server thread/INFO]: [DiscordSRV] Loading server plugin DiscordSRV v1.28.0
+[09:41:03] [Server thread/INFO]: [Spectator] Loading server plugin Spectator v3.1
+[09:41:03] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.4.4
+[09:41:03] [Server thread/INFO]: [DeathChestsPlus] Loading server plugin DeathChestsPlus v1.0
+[09:41:03] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[09:41:03] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.146
+[09:41:04] [Server thread/INFO]:         __    
+[09:41:04] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.146
+[09:41:04] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[09:41:04] [Server thread/INFO]: 
+[09:41:04] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[09:41:04] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[09:41:05] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[09:41:05] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[09:41:05] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1617ms)
+[09:41:05] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.3.0
+[09:41:05] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.4.4
+[09:41:06] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[09:41:06] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.6.
+[09:41:07] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[09:41:07] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.4.4]
+[09:41:07] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
+[09:41:07] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[09:41:07] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[09:41:07] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[09:41:07] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[09:41:07] [Server thread/INFO]: Preparing level "world"
+[09:41:07] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[09:41:07] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[09:41:07] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[09:41:07] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[09:41:07] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[09:41:07] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[09:41:07] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[09:41:07] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.4.4
+[09:41:07] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: dc501c7
+[09:41:07] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[09:41:07] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[09:41:07] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[09:41:07] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[09:41:08] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[09:41:09] [Server thread/INFO]: Time elapsed: 1274 ms
+[09:41:09] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[09:41:09] [Server thread/INFO]: Time elapsed: 263 ms
+[09:41:09] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[09:41:10] [Server thread/INFO]: Time elapsed: 186 ms
+[09:41:10] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.13
+[09:41:10] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.13" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[09:41:10] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[09:41:10] [Server thread/INFO]: Preparing start region for dimension minecraft:flatroom
+[09:41:10] [Server thread/INFO]: Time elapsed: 104 ms
+[09:41:10] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
+[09:41:10] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[09:41:10] [Server thread/INFO]: [Multiverse-Core] Version 4.3.13 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[09:41:10] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[09:41:10] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[09:41:10] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+129-2ac37d8
+[09:41:11] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[09:41:11] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[09:41:11] [Server thread/INFO]: [Essentials] Loaded 42779 items from items.json.
+[09:41:11] [Server thread/INFO]: [Essentials] Using locale en
+[09:41:12] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[09:41:12] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[09:41:12] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[09:41:12] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[09:41:12] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[09:41:12] [Server thread/INFO]: [RealisticSeasons] Enabling RealisticSeasons v11.4.1
+[09:41:12] [Server thread/INFO]: [RealisticSeasons] [STDOUT] [Spigotunlocked.com] - COSMO
+[09:41:12] [Server thread/WARN]: Nag author(s): '[]' of 'RealisticSeasons v11.4.1' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[09:41:12] [Server thread/INFO]: [EconomyShopGUI] Enabling EconomyShopGUI v6.9.0
+[09:41:12] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using lang-en.yml as language file.
+[09:41:12] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 section configs from /sections/
+[09:41:12] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 shop configs from /shops/
+[09:41:12] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Updating Shop settings...
+[09:41:12] [Server thread/INFO]: [EconomyShopGUI] [WARN]: Failed to load default economy provider with reason 'Could not find Vault', trying to automatically find supported economy provider
+[09:41:12] [Server thread/INFO]: [EconomyShopGUI] [WARN]: ===================================================
+[09:41:12] [Server thread/INFO]: [EconomyShopGUI] [WARN]:  
+[09:41:12] [Server thread/INFO]: [EconomyShopGUI] [WARN]: Failed to automatically load an available economy provider, this plugin requires one, disabling...
+[09:41:12] [Server thread/INFO]: [EconomyShopGUI] [WARN]: See a list of available economy providers on our wiki here: https://wiki.gpplugins.com/economyshopgui/file-configuration/config.yml#economy-provider
+[09:41:12] [Server thread/INFO]: [EconomyShopGUI] [WARN]:  
+[09:41:12] [Server thread/INFO]: [EconomyShopGUI] [WARN]: ===================================================
+[09:41:12] [Server thread/INFO]: [EconomyShopGUI] Disabling EconomyShopGUI v6.9.0
+[09:41:12] [Server thread/INFO]: [EssentialsDiscord] Enabling EssentialsDiscord v2.21.0-dev+129-2ac37d8
+[09:41:13] [Server thread/INFO]: [EssentialsDiscord] Starting Metrics. Opt-out using the global bStats config.
+[09:41:13] [Server thread/INFO]: [EssentialsDiscord] Attempting to login to Discord...
+[09:41:13] [Server thread/ERROR]: [EssentialsDiscord] An error occurred while logging into Discord, which has caused the plugin to disable itself: 
+No token provided! Please follow the tutorial in the config in order to setup the plugin.
+[09:41:13] [Server thread/INFO]: [Infiniteannouncements] Enabling Infiniteannouncements v2.5.0
+[09:41:13] [Server thread/INFO]: [Infiniteannouncements] [DEBUG] Registered command: InfiniteAnnouncements
+[09:41:13] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: infiniteannouncements [1.0.0]
+[09:41:13] [Server thread/INFO]: [TAB] Enabling TAB v5.0.1
+[09:41:13] [Server thread/INFO]: [TAB] Loaded NMS hook in 41ms
+[09:41:14] [Server thread/INFO]: [TAB] Enabled in 449ms
+[09:41:14] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.28.0
+[09:41:14] [Server thread/INFO]: [Spectator] Enabling Spectator v3.1
+[09:41:14] [Server thread/INFO]: [Spectator] -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+[09:41:14] [Server thread/INFO]: [Spectator] Plugin: Spectator, v3.1 by CuzIm1Tigaaa
+[09:41:14] [Server thread/INFO]: [Spectator] -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+[09:41:14] [Server thread/INFO]: [Spectator] This Plugin is a modified Version
+[09:41:14] [Server thread/INFO]: [Spectator] of kosakriszi's spectator Plugin!
+[09:41:14] [Server thread/INFO]: [Spectator] spigotmc.org/resources/spectator.16745/
+[09:41:14] [Server thread/INFO]: [Spectator] -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+[09:41:14] [Server thread/INFO]: [Spectator] Loading config settings…
+[09:41:14] [Server thread/INFO]: [Spectator] Loading plugin messages…
+[09:41:14] [Server thread/INFO]: [Spectator] Checking for Updates…
+[09:41:14] [Server thread/INFO]: [Spectator] Register Events & Commands…
+[09:41:14] [Server thread/INFO]: [Spectator] Multiverse-Core is installed on this server!
+[09:41:14] [Server thread/INFO]: [Spectator] PlaceholderAPI is installed on this server!
+[09:41:14] [Server thread/INFO]: [Spectator] Registering plugins placeholders…
+[09:41:14] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: Spectator [3.1]
+[09:41:14] [Server thread/INFO]: [DeathChestsPlus] Enabling DeathChestsPlus v1.0
+[09:41:14] [Server thread/INFO]: [DeathChestsPlus] Death chests loaded from file.
+[09:41:14] [Server thread/INFO]: Thanks for purchasing DeathChests+
+[09:41:14] [Server thread/INFO]: This Plugin Is Brought To You By Conner @ BodMedia
+[09:41:14] [Server thread/INFO]: For Support, Requests & More, Visit https://discord.com/invite/9bQhrG6Fm7
+[09:41:14] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[09:41:14] [Server thread/INFO]: 0 placeholder hook(s) registered!
+[09:41:14] [Server thread/INFO]: Running delayed init tasks
+[09:41:14] [Craft Scheduler Thread - 2 - Essentials/INFO]: [Essentials] Fetching version information...
+[09:41:14] [Server thread/INFO]: [RealisticSeasons] [STDOUT] [Spigotunlocked.com] - COSMO
+[09:41:15] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: rs [1.0.0]
+[09:41:15] [Server thread/INFO]: [RealisticSeasons] Total biomes registered on server: 249
+[09:41:15] [Server thread/INFO]: Done (15.292s)! For help, type "help"
+[09:41:15] [Server thread/INFO]: Timings Reset
+[09:41:15] [pool-37-thread-1/WARN]: [DiscordSRV] 
+
+The current build of DiscordSRV is outdated by 29 commits! Get the latest build at your favorite distribution center.
+
+Spigot: https://www.spigotmc.org/resources/discordsrv.18494/
+Github: https://github.com/DiscordSRV/DiscordSRV/releases
+Direct Download: https://get.discordsrv.com
+
+[09:41:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] [JDA] Login Successful!
+[09:41:17] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[09:41:17] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Finished Loading!
+[09:41:18] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Console forwarding assigned to channel TC:console(1305509069842415697)
+[09:41:18] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling Essentials hook
+[09:41:18] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling LuckPerms hook
+[09:41:18] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling PlaceholderAPI hook
+[09:41:18] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: discordsrv [1.28.0]
+[09:41:18] [DiscordSRV - JDA Callback 0/INFO]: [DiscordSRV] Cleared all pre-existing slash commands in 1/1 guilds (0 cancelled)
+[09:41:24] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | player] k_toànn > Ngon
+[09:41:53] [User Authenticator #0/INFO]: UUID of player Itz_Khtoan is 7ca9c56b-ddaa-3287-9584-b96f17a56158
+[09:41:58] [Server thread/INFO]: Itz_Khtoan joined the game
+[09:41:58] [Server thread/INFO]: Itz_Khtoan[/127.225.111.13:41033] logged in with entity id 150 at ([world]-157.2458830160452, 67.0, 725.0295069865615)
+[09:42:20] [User Authenticator #0/INFO]: UUID of player MinkKhangg is 85106ecb-12c1-3491-b6a1-8b3f887518b7
+[09:42:20] [Server thread/INFO]: Disconnecting MinkKhangg (/127.60.17.217:58347): You are not whitelisted on this server!
+[09:42:20] [Server thread/INFO]: MinkKhangg (/127.60.17.217:58347) lost connection: You are not whitelisted on this server!
+[09:42:29] [User Authenticator #0/INFO]: UUID of player MinkKhangg is 85106ecb-12c1-3491-b6a1-8b3f887518b7
+[09:42:29] [Server thread/INFO]: Disconnecting MinkKhangg (/127.60.17.217:42817): You are not whitelisted on this server!
+[09:42:29] [Server thread/INFO]: MinkKhangg (/127.60.17.217:42817) lost connection: You are not whitelisted on this server!
+[09:42:40] [Server thread/INFO]: [DeathChestsPlus] Death chests saved to file.
+[09:42:40] [Server thread/INFO]: [DeathChestsPlus] Death chests saved to file.
+[09:42:40] [Server thread/INFO]: Itz_Khtoan was slain by Spider
+[09:42:47] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | player] Henry > :]
+[09:42:56] [Async Chat Thread - #0/INFO]: [Not Secure] <Itz_Khtoan> tutu
+[09:43:00] [User Authenticator #0/INFO]: UUID of player Itz_Mkhangg is 7bc95bc8-9105-3d68-b96b-8ba111c83330
+[09:43:00] [Server thread/INFO]: Disconnecting Itz_Mkhangg (/127.60.17.217:41839): You are not whitelisted on this server!
+[09:43:00] [Server thread/INFO]: Itz_Mkhangg (/127.60.17.217:41839) lost connection: You are not whitelisted on this server!
+[09:43:23] [Async Chat Thread - #0/INFO]: [Not Secure] <Itz_Khtoan> sv lag vl
+[09:44:17] [User Authenticator #1/INFO]: UUID of player Itz_Mkhangg is 7bc95bc8-9105-3d68-b96b-8ba111c83330
+[09:44:17] [Server thread/INFO]: Disconnecting Itz_Mkhangg (/127.60.17.217:39547): You are not whitelisted on this server!
+[09:44:17] [Server thread/INFO]: Itz_Mkhangg (/127.60.17.217:39547) lost connection: You are not whitelisted on this server!
+[09:44:25] [User Authenticator #1/INFO]: UUID of player Itz_Mkhangg is 7bc95bc8-9105-3d68-b96b-8ba111c83330
+[09:44:26] [Server thread/INFO]: Disconnecting Itz_Mkhangg (/127.60.17.217:58023): You are not whitelisted on this server!
+[09:44:26] [Server thread/INFO]: Itz_Mkhangg (/127.60.17.217:58023) lost connection: You are not whitelisted on this server!
+[09:44:42] [Server thread/INFO]: [DeathChestsPlus] Death chests saved to file.
+[09:44:42] [Server thread/INFO]: [DeathChestsPlus] Death chests saved to file.
+[09:44:42] [Server thread/INFO]: Itz_Khtoan was blown up by Creeper
+[09:45:29] [Server thread/INFO]: Itz_Khtoan was slain by Zombie
+[09:45:29] [Async Chat Thread - #2/INFO]: [Not Secure] <Itz_Khtoan> delay 1s
+[09:45:39] [User Authenticator #2/INFO]: UUID of player tOILAkHanNG is 2bba5b28-49c9-3082-93f6-bbff97aa9a48
+[09:45:39] [Server thread/INFO]: Disconnecting tOILAkHanNG (/127.60.17.217:44485): You are not whitelisted on this server!
+[09:45:39] [Server thread/INFO]: tOILAkHanNG (/127.60.17.217:44485) lost connection: You are not whitelisted on this server!
+[09:45:39] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | player] flo75689 > delay hả
+[09:45:48] [Async Chat Thread - #2/INFO]: [Not Secure] <Itz_Khtoan> uk
+[09:45:58] [Async Chat Thread - #2/INFO]: [Not Secure] <Itz_Khtoan> t de quai danh test ma
+[09:46:31] [User Authenticator #2/INFO]: UUID of player MinkKhangg is 85106ecb-12c1-3491-b6a1-8b3f887518b7
+[09:46:31] [Server thread/INFO]: Disconnecting MinkKhangg (/127.60.17.217:52995): You are not whitelisted on this server!
+[09:46:31] [Server thread/INFO]: MinkKhangg (/127.60.17.217:52995) lost connection: You are not whitelisted on this server!
+[09:47:12] [User Authenticator #2/INFO]: UUID of player IamKhn4g is 1f36ba41-a71e-3423-b377-14ba4ef37505
+[09:47:12] [Server thread/INFO]: Disconnecting IamKhn4g (/127.60.17.217:52949): You are not whitelisted on this server!
+[09:47:12] [Server thread/INFO]: IamKhn4g (/127.60.17.217:52949) lost connection: You are not whitelisted on this server!
+[09:47:19] [User Authenticator #2/INFO]: UUID of player IamKhn4g is 1f36ba41-a71e-3423-b377-14ba4ef37505
+[09:47:19] [Server thread/INFO]: Disconnecting IamKhn4g (/127.60.17.217:54823): You are not whitelisted on this server!
+[09:47:19] [Server thread/INFO]: IamKhn4g (/127.60.17.217:54823) lost connection: You are not whitelisted on this server!
+[09:47:25] [User Authenticator #2/INFO]: UUID of player IamKhn4g is 1f36ba41-a71e-3423-b377-14ba4ef37505
+[09:47:25] [Server thread/INFO]: Disconnecting IamKhn4g (/127.60.17.217:58091): You are not whitelisted on this server!
+[09:47:25] [Server thread/INFO]: IamKhn4g (/127.60.17.217:58091) lost connection: You are not whitelisted on this server!
+[09:47:29] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | player] flo75689 > server không lag mà chắc do mạng
+[09:47:31] [User Authenticator #2/INFO]: UUID of player IamKhn4g is 1f36ba41-a71e-3423-b377-14ba4ef37505
+[09:47:31] [Server thread/INFO]: Disconnecting IamKhn4g (/127.60.17.217:58543): You are not whitelisted on this server!
+[09:47:32] [Server thread/INFO]: IamKhn4g (/127.60.17.217:58543) lost connection: You are not whitelisted on this server!
+[09:47:38] [User Authenticator #2/INFO]: UUID of player IamKhn4g is 1f36ba41-a71e-3423-b377-14ba4ef37505
+[09:47:38] [Server thread/INFO]: Disconnecting IamKhn4g (/127.60.17.217:58857): You are not whitelisted on this server!
+[09:47:38] [Server thread/INFO]: IamKhn4g (/127.60.17.217:58857) lost connection: You are not whitelisted on this server!
+[09:47:45] [User Authenticator #2/INFO]: UUID of player IamKhn4g is 1f36ba41-a71e-3423-b377-14ba4ef37505
+[09:47:45] [Server thread/INFO]: Disconnecting IamKhn4g (/127.60.17.217:47025): You are not whitelisted on this server!
+[09:47:45] [Server thread/INFO]: IamKhn4g (/127.60.17.217:47025) lost connection: You are not whitelisted on this server!
+[09:48:27] [User Authenticator #2/INFO]: UUID of player MINKKHANG is 22e2992a-6541-3f67-838c-31540a751b8c
+[09:48:27] [Server thread/INFO]: Disconnecting MINKKHANG (/127.60.17.217:50193): You are not whitelisted on this server!
+[09:48:27] [Server thread/INFO]: MINKKHANG (/127.60.17.217:50193) lost connection: You are not whitelisted on this server!
+[09:48:33] [User Authenticator #2/INFO]: UUID of player MINKKHANG is 22e2992a-6541-3f67-838c-31540a751b8c
+[09:48:33] [Server thread/INFO]: Disconnecting MINKKHANG (/127.60.17.217:55251): You are not whitelisted on this server!
+[09:48:33] [Server thread/INFO]: MINKKHANG (/127.60.17.217:55251) lost connection: You are not whitelisted on this server!
+[09:49:39] [User Authenticator #3/INFO]: UUID of player Itz_Khtoan is 7ca9c56b-ddaa-3287-9584-b96f17a56158
+[09:49:39] [Server thread/INFO]: Itz_Khtoan lost connection: You logged in from another location
+[09:49:39] [Server thread/INFO]: Itz_Khtoan left the game
+[09:49:41] [Server thread/INFO]: Itz_Khtoan joined the game
+[09:49:41] [Server thread/INFO]: Itz_Khtoan[/127.60.17.217:33767] logged in with entity id 4197 at ([world]-101.65546139851571, 63.0, 605.2007784364794)
+[09:49:43] [Server thread/INFO]: Itz_Khtoan lost connection: Disconnected
+[09:49:43] [Server thread/INFO]: Itz_Khtoan left the game
+[09:49:48] [User Authenticator #3/INFO]: UUID of player Itz_Khtoan is 7ca9c56b-ddaa-3287-9584-b96f17a56158
+[09:49:50] [Server thread/INFO]: Itz_Khtoan joined the game
+[09:49:50] [Server thread/INFO]: Itz_Khtoan[/127.225.111.13:36577] logged in with entity id 4450 at ([world]-101.65546139851571, 63.0, 605.2007784364794)
+[09:50:33] [User Authenticator #3/INFO]: UUID of player MinkKhangg is 85106ecb-12c1-3491-b6a1-8b3f887518b7
+[09:50:33] [Server thread/INFO]: Disconnecting MinkKhangg (/127.60.17.217:38565): You are not whitelisted on this server!
+[09:50:33] [Server thread/INFO]: MinkKhangg (/127.60.17.217:38565) lost connection: You are not whitelisted on this server!
+[09:50:38] [User Authenticator #3/INFO]: UUID of player MinkKhangg is 85106ecb-12c1-3491-b6a1-8b3f887518b7
+[09:50:38] [Server thread/INFO]: Disconnecting MinkKhangg (/127.60.17.217:59599): You are not whitelisted on this server!
+[09:50:39] [Server thread/INFO]: MinkKhangg (/127.60.17.217:59599) lost connection: You are not whitelisted on this server!
+[09:53:13] [User Authenticator #4/INFO]: UUID of player MinkKhangg is 85106ecb-12c1-3491-b6a1-8b3f887518b7
+[09:53:13] [Server thread/INFO]: Disconnecting MinkKhangg (/127.60.17.217:41125): You are not whitelisted on this server!
+[09:53:13] [Server thread/INFO]: MinkKhangg (/127.60.17.217:41125) lost connection: You are not whitelisted on this server!
+[09:54:27] [Server thread/INFO]: Itz_Khtoan lost connection: Disconnected
+[09:54:27] [Server thread/INFO]: Itz_Khtoan left the game
+[09:54:39] [User Authenticator #5/INFO]: UUID of player Itz_Khtoan is 7ca9c56b-ddaa-3287-9584-b96f17a56158
+[09:54:42] [Server thread/INFO]: Itz_Khtoan joined the game
+[09:54:42] [Server thread/INFO]: Itz_Khtoan[/127.225.111.13:55235] logged in with entity id 6328 at ([world]10.5857736469618, 150.0, 361.879795275826)
+[09:57:04] [Server thread/INFO]: Itz_Khtoan lost connection: Disconnected
+[09:57:04] [Server thread/INFO]: Itz_Khtoan left the game
+[09:57:20] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | player] Henry > ,
+[10:04:01] [User Authenticator #6/INFO]: UUID of player Itz_Khtoan is 7ca9c56b-ddaa-3287-9584-b96f17a56158
+[10:04:05] [Server thread/INFO]: Itz_Khtoan joined the game
+[10:04:05] [Server thread/INFO]: Itz_Khtoan[/127.225.111.13:55217] logged in with entity id 6443 at ([world]9.95292833770117, 150.0, 359.4789483543284)
+[10:08:14] [Server thread/INFO]: [DeathChestsPlus] Death chests saved to file.
+[10:08:14] [Server thread/INFO]: [DeathChestsPlus] Death chests saved to file.
+[10:08:14] [Server thread/INFO]: Itz_Khtoan was slain by Spider
+[10:08:19] [Server thread/INFO]: [DeathChestsPlus] Death chests saved to file.
+[10:08:22] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | player] Henry > skibidiii
+[10:08:33] [Async Chat Thread - #4/INFO]: [Not Secure] <Itz_Khtoan> sv delay ac
+[10:08:44] [Server thread/INFO]: [DeathChestsPlus] Death chests saved to file.
+[10:08:44] [Server thread/INFO]: Itz_Khtoan was slain by Zombie
+[10:08:49] [Server thread/INFO]: [DeathChestsPlus] Death chests saved to file.
+[10:08:50] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | player] Henry > :]
+[10:08:55] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | player] flo75689 > delay tin nhắn hay gì
+[10:09:03] [Async Chat Thread - #4/INFO]: [Not Secure] <Itz_Khtoan> danh quai k knock back
+[10:09:26] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | player] flo75689 > xin lỗi nhưng mỗi m bị thôi
+[10:10:50] [Server thread/INFO]: Itz_Khtoan lost connection: Disconnected
+[10:10:51] [Server thread/INFO]: Itz_Khtoan left the game
+[10:45:08] [User Authenticator #7/INFO]: UUID of player vietdeptrai209 is a238afc1-a708-3e17-93df-2eb9d84158bd
+[10:45:08] [Server thread/INFO]: Disconnecting vietdeptrai209 (/127.156.189.179:47579): You are not whitelisted on this server!
+[10:45:08] [Server thread/INFO]: vietdeptrai209 (/127.156.189.179:47579) lost connection: You are not whitelisted on this server!
+[10:45:22] [User Authenticator #7/INFO]: UUID of player vietdeptrai209 is a238afc1-a708-3e17-93df-2eb9d84158bd
+[10:45:22] [Server thread/INFO]: Disconnecting vietdeptrai209 (/127.156.189.179:53097): You are not whitelisted on this server!
+[10:45:22] [Server thread/INFO]: vietdeptrai209 (/127.156.189.179:53097) lost connection: You are not whitelisted on this server!
+[10:45:37] [User Authenticator #7/INFO]: UUID of player vietdeptrai209 is a238afc1-a708-3e17-93df-2eb9d84158bd
+[10:45:37] [Server thread/INFO]: Disconnecting vietdeptrai209 (/127.156.189.179:33629): You are not whitelisted on this server!
+[10:45:37] [Server thread/INFO]: vietdeptrai209 (/127.156.189.179:33629) lost connection: You are not whitelisted on this server!
+[10:46:10] [User Authenticator #7/INFO]: UUID of player vietdeptrai209 is a238afc1-a708-3e17-93df-2eb9d84158bd
+[10:46:10] [Server thread/INFO]: Disconnecting vietdeptrai209 (/127.156.189.179:59803): You are not whitelisted on this server!
+[10:46:10] [Server thread/INFO]: vietdeptrai209 (/127.156.189.179:59803) lost connection: You are not whitelisted on this server!
+[10:46:44] [User Authenticator #7/INFO]: UUID of player vietdeptrai209 is a238afc1-a708-3e17-93df-2eb9d84158bd
+[10:46:44] [Server thread/INFO]: Disconnecting vietdeptrai209 (/127.156.189.179:32827): You are not whitelisted on this server!
+[10:46:44] [Server thread/INFO]: vietdeptrai209 (/127.156.189.179:32827) lost connection: You are not whitelisted on this server!
+[10:47:25] [Server thread/INFO]: Added vietdeptrai209 to the whitelist

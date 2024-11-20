@@ -1,0 +1,23 @@
+players:
+  colorsdisabled: []
+  tempdisabled: []
+  particlesdisabled: []
+  knownplayers:
+  - c9197cf9-6ea7-3139-bba4-bba8512aab0f
+  - 85106ecb-12c1-3491-b6a1-8b3f887518b7
+  - 7ca9c56b-ddaa-3287-9584-b96f17a56158
+  - 7bc95bc8-9105-3d68-b96b-8ba111c83330
+  - a238afc1-a708-3e17-93df-2eb9d84158bd
+  - ff7a1815-c72c-38cd-8e9a-b2d54f55ba4b
+  - 366bc471-1726-3c52-b7c8-8e23b12c0b8a
+  fahrenheit-mode: []
+worlds:
+  world: WINTER
+dates:
+  world:
+    day: 5
+    month: 2
+    year: 0
+temperature:
+  world: true
+time-paused: []

@@ -1,0 +1,7 @@
+# DeathChestsPlus Configuration
+chest-lifetime: 9999999 # Duration in minutes for which a death chest should remain
+delete-previous-chest: true # Whether to delete the previous death chest of the player upon new death
+use-explosion-effect: true # Whether to use explosion effect when a death chest is removed
+spawn-empty-deathchest: false # Whether to spawn a death chest even if the player's inventory is empty
+store-xp: true # Whether to store and restore player's XP on death
+collect-others-chests: false # Whether players can collect other players' death chests
